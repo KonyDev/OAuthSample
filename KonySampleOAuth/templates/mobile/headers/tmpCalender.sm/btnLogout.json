@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "s2f1e8cc07fc4ceab2142d61da73e8f0",
+    "_text_": "",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s2f1e8cc07fc4ceab2142d61da73e8f0",
+    "id": "btnLogout",
+    "ide_onClick": "AS_Button_a0466a118ce3457ba9080b4c2397f8d1",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "681a287795b145068997513d3901a36f",
+    "name": "kony.ui.Button",
+    "parent": "flxCalender",
+    "pf": "tmpCalender",
+    "showprogressindicator": false,
+    "wType": "Button",
+    "zindex": 1
+}

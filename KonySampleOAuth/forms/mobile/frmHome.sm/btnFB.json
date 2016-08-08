@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se8eeeaecc21409a909fe57f915fcb65",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "39%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s1b7d40d01f749af884801bbb07b9b4a",
+    "id": "btnFB",
+    "ide_onClick": "AS_Button_b4308a8c721b4be9b755b53eeb4c2ef4",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "23e5cee6ef634346bd662b555d3a1b42",
+    "name": "kony.ui.Button",
+    "parent": "flxFacebook",
+    "pf": "frmHome",
+    "showprogressindicator": false,
+    "wType": "Button",
+    "zindex": 1
+}

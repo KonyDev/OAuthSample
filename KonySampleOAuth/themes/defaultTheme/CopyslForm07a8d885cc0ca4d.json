@@ -1,0 +1,12 @@
+{
+  "background_image": "splash.png",
+  "bg_type": "image",
+  "border_color": "ffffffff",
+  "iphone": {
+    "background_image": "splash.png",
+    "bg_type": "image"
+  },
+  "isDefaultSkin": false,
+  "kuid": "s9b576dbe3a74df08f6eb600fa71eda8",
+  "wType": "Form"
+}

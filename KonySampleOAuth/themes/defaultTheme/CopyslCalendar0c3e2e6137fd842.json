@@ -1,0 +1,23 @@
+{
+  "android": {
+    "font_name": "San-Francisco-Regular"
+  },
+  "background_color": "ffffff00",
+  "bg_type": "one",
+  "border_color": "00a3d9ff",
+  "border_radius": 100,
+  "border_style": "custom",
+  "border_type": 0,
+  "border_width": 1,
+  "font_color": "7f7f7fff",
+  "font_name": "Helvetica",
+  "font_size": 157,
+  "font_style": "underline",
+  "font_weight": "normal",
+  "iphone": {
+    "font_name": "San-Francisco-Regular"
+  },
+  "isDefaultSkin": false,
+  "kuid": "s6aab9ac9548432c962fcbc85510bf28",
+  "wType": "Grid Calendar Cell Skin"
+}

@@ -1,0 +1,20 @@
+{
+  "background_color": "00a3d900",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_radius": 10,
+  "border_style": "custom",
+  "border_type": 0,
+  "border_width": 1,
+  "font_color": "7f7f7fff",
+  "font_name": "Helvetica",
+  "font_size": 157,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "iphone": {
+    "font_name": "San-Francisco-Regular"
+  },
+  "isDefaultSkin": false,
+  "kuid": "s59111871cf9455b86cbbb9d3b84497b",
+  "wType": "Calendar"
+}

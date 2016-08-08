@@ -1,0 +1,15 @@
+{
+  "android": {
+    "background_image": "microsoft_normal.png",
+    "bg_type": "image"
+  },
+  "background_image": "microsoft_normal.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "s2675b0efc3e4de08dcb02aa14026285",
+  "wType": "FlexContainer"
+}

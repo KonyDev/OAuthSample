@@ -1,0 +1,16 @@
+{
+  "android": {
+    "background_image": "google_active.png",
+    "bg_type": "image"
+  },
+  "background_image": "google_active.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "iphone": {},
+  "isDefaultSkin": false,
+  "kuid": "s4b01ff2a83d4da5983b00952a37990d",
+  "wType": "FlexContainer"
+}

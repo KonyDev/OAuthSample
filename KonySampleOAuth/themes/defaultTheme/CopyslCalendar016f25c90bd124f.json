@@ -1,0 +1,23 @@
+{
+  "android": {
+    "font_name": "San-Francisco-Regular"
+  },
+  "background_color": "ffffffff",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "000000ff",
+  "font_name": "Helvetica",
+  "font_size": 157,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "gridLineColor": "ffffffff",
+  "iphone": {
+    "font_name": "San-Francisco-Medium"
+  },
+  "isDefaultSkin": false,
+  "kuid": "saad5a6fecc64e588ef610c710f3e5c0",
+  "wType": "Grid Calendar"
+}

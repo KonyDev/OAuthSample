@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s68382e3e4dd42c786aa7f3777ae80ce",
+    "_src_": "back.png",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "platform": "iphone",
+        "templateType": "headers",
+        "topLevelBox": null
+    },
+    "id": "CopyImage09ac7aaefa1a04e",
+    "ide_onTouchEnd": "AS_Image_63c3f8255d8f474fb5814b8cf0e0df4b",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "isSegmentChild": false,
+    "isvisible": true,
+    "kuid": "ee045c83673b4dda88d4e7c0fbe6b928",
+    "name": "kony.ui.Image2",
+    "parent": "flxBack",
+    "pf": "tmpLinkedinShare",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 10
+}

@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se385221d8104b68a15e854f98dd5393",
+    "_src_": "camera.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "tmpLoinkedinSharefooter",
+        "platform": "iphone",
+        "templateType": "footers",
+        "topLevelBox": null
+    },
+    "id": "imgCam0e6975fe9511a4b",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "isSegmentChild": false,
+    "isvisible": true,
+    "kuid": "bca6dd8a5e0c44f995cde9726d0f27c2",
+    "name": "kony.ui.Image2",
+    "parent": "flxcCam0380482b2a61f40",
+    "pf": "tmpLoinkedinSharefooter",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
+}

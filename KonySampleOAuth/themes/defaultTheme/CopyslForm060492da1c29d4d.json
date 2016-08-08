@@ -1,0 +1,12 @@
+{
+  "android": {
+    "background_image": "bg.png",
+    "bg_type": "image"
+  },
+  "background_image": "bg.png",
+  "bg_type": "image",
+  "border_color": "ffffffff",
+  "isDefaultSkin": false,
+  "kuid": "sa6ac67054814e888fcdc572d8fb1a9f",
+  "wType": "Form"
+}

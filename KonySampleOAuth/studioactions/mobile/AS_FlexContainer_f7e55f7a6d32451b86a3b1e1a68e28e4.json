@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_f7e55f7a6d32451b86a3b1e1a68e28e4": {
+        "id": "AS_FlexContainer_f7e55f7a6d32451b86a3b1e1a68e28e4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLinkedinShare",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f433feb19aa645ada5183721cd5f98bc"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_9b786c857fdb48199c5fe18d3d2c059d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "radioButtonCallback",
+            "display": "radioButtonCallback",
+            "inputparams": [{
+                "name": "item",
+                "value": "1"
+            }],
+            "callbackType": null
+        }]
+    }
+}
