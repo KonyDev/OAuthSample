@@ -104,7 +104,7 @@ function addWidgetsfrmKonyOAuth() {
         "isVisible": true,
         "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
         "left": "50dp",
-        "placeholder": "user id",
+        "placeholder": "email",
         "secureTextEntry": false,
         "skin": "slTextBox",
         "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
