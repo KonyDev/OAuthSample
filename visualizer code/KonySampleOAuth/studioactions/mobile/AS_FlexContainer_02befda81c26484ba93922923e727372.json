@@ -1,0 +1,20 @@
+{
+    "AS_FlexContainer_02befda81c26484ba93922923e727372": {
+        "id": "AS_FlexContainer_02befda81c26484ba93922923e727372",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpSegLinkedin",
+            "type": "templates",
+            "KUID": "21d69629cb8b4ce195c67f8acfc2ec20"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

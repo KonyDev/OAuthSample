@@ -1,0 +1,19 @@
+{
+    "AS_Button_165ba6984ccb42b1a1ff83ee1151c2df": {
+        "id": "AS_Button_165ba6984ccb42b1a1ff83ee1151c2df",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_173df69612064e4fbb9698413da7fa4f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "boxLogin",
+            "display": "boxLogin",
+            "inputparams": [],
+            "callbackType": null
+        }]
+    }
+}

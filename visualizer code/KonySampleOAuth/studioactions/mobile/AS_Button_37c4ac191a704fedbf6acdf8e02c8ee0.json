@@ -1,0 +1,19 @@
+{
+    "AS_Button_37c4ac191a704fedbf6acdf8e02c8ee0": {
+        "id": "AS_Button_37c4ac191a704fedbf6acdf8e02c8ee0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_e6701bfa12e941f09bbe71bb8747428c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "linkedinLogin",
+            "display": "linkedinLogin",
+            "inputparams": [],
+            "callbackType": null
+        }]
+    }
+}

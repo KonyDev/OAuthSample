@@ -1,0 +1,27 @@
+{
+    "AS_Button_9d5cb2e068394469b8127e6c49a00527": {
+        "id": "AS_Button_9d5cb2e068394469b8127e6c49a00527",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "tmpProfile",
+            "type": "templates",
+            "platform": "",
+            "KUID": "864a136499a2461ab4714fa5146e6bb0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___6cf26c7ab35d4e2f94006a06e7587b5e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fnLogout",
+            "display": "fnLogout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

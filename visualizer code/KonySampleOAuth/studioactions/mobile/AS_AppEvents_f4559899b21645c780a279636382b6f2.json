@@ -1,0 +1,21 @@
+{
+    "AS_AppEvents_f4559899b21645c780a279636382b6f2": {
+        "id": "AS_AppEvents_f4559899b21645c780a279636382b6f2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b5e8c7cf9bbc4f2ea957ef99b094f38b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "initializeClient",
+            "display": "initializeClient",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "AS_AppEvents_44e67e11ac8d422cada6103eaa2d2ccc": {
+        "id": "AS_AppEvents_44e67e11ac8d422cada6103eaa2d2ccc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c417c9afcfec4540b957de0245a24542",
+            "type": "INVOKE_FUNCTION",
+            "display": null,
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

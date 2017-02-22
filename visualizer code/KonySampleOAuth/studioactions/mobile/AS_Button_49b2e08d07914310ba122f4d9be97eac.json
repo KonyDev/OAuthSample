@@ -1,0 +1,32 @@
+{
+    "AS_Button_49b2e08d07914310ba122f4d9be97eac": {
+        "id": "AS_Button_49b2e08d07914310ba122f4d9be97eac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFacebook",
+            "type": "forms",
+            "platform": "",
+            "KUID": "36c6f6543f2a409896519c722d114fee"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___8ffb8745c1f04b6594924fd74d3106ed",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "login",
+            "display": "login",
+            "inputparams": [{
+                "name": "provider_name"
+            }, {
+                "name": "displayProfileFn"
+            }, {
+                "name": "callback"
+            }],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

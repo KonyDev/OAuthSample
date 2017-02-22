@@ -1,0 +1,19 @@
+{
+    "AS_Button_2f8c25a88a484dddbbc4890a9131bc3c": {
+        "id": "AS_Button_2f8c25a88a484dddbbc4890a9131bc3c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_053d4da5590c44e2976a4d9bdaef9be6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fbLogin",
+            "display": "fbLogin",
+            "inputparams": [],
+            "callbackType": null
+        }]
+    }
+}

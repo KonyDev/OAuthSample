@@ -1,0 +1,19 @@
+{
+    "AS_Button_02ffdc821afb48fea1634f728a3003c0": {
+        "id": "AS_Button_02ffdc821afb48fea1634f728a3003c0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_964c5573152c4c7f9a8855089e7b9ffb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "msLogin",
+            "display": "msLogin",
+            "inputparams": [],
+            "callbackType": null
+        }]
+    }
+}

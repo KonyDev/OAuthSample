@@ -1,0 +1,32 @@
+{
+    "AS_Segment_6f184e10fc034bbdb05583e5f1b0f8aa": {
+        "id": "AS_Segment_6f184e10fc034bbdb05583e5f1b0f8aa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmOneDrive",
+            "type": "forms",
+            "platform": "",
+            "KUID": "819ba2e75b1b48459cf3cdebd6cfbd24"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___43cf4dc367a84d27a6e703c1aad5843b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getMFolders",
+            "display": "getMFolders",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

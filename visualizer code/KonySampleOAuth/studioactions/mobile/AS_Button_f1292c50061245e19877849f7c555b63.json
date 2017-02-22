@@ -1,0 +1,25 @@
+{
+    "AS_Button_f1292c50061245e19877849f7c555b63": {
+        "id": "AS_Button_f1292c50061245e19877849f7c555b63",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a1f4c52e6be342b0a6a34efc6a40d25e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_42aa06aeac9d4f5fbe3be459795d9bbc",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "msLogin",
+            "display": "msLogin",
+            "inputparams": [],
+            "callbackType": null
+        }]
+    }
+}

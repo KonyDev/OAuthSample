@@ -1,0 +1,25 @@
+{
+    "AS_Button_98cb7f3376914270b524edc0cea0715d": {
+        "id": "AS_Button_98cb7f3376914270b524edc0cea0715d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a1f4c52e6be342b0a6a34efc6a40d25e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_8c8ef4f7954e407d91530f00231d4aef",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "googleLogin",
+            "display": "googleLogin",
+            "inputparams": [],
+            "callbackType": null
+        }]
+    }
+}

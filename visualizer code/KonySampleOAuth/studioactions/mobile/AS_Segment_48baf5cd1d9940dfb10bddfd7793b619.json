@@ -1,0 +1,32 @@
+{
+    "AS_Segment_48baf5cd1d9940dfb10bddfd7793b619": {
+        "id": "AS_Segment_48baf5cd1d9940dfb10bddfd7793b619",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "displayFolders",
+            "type": "forms",
+            "platform": null,
+            "KUID": "732702f92aff4d94969b775abae53bfb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d0afbcb12c67409d96bb9d7e989a9ffa",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayFiles",
+            "display": "displayFiles",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

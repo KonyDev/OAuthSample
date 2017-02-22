@@ -1,0 +1,149 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "Label09c864798052647": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "img123": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "attachment_icon.png"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "24/09/13,"
+            },
+            "lblId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblSize": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "- 0 bytes"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "11:19AM"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email attachments"
+            },
+            "lblType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segOnedrive",
+    "ide_onRowClick": "AS_Segment_660805acc75341baaa91c6e2bd8e6e99",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "searchBy": null,
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "ed0f112b02d14d49bd4181db7e9e8aac",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmBox",
+    "pf": "frmBox",
+    "retainselection": false,
+    "rowTemplateId": "f7c62b7c40d94b9c870b1957336482d2",
+    "rowcounter": 0,
+    "rowfocusskin": "sd3ffdd070fa42c09a6c12dc085cdf68",
+    "rowskin": "s6db4dff384b4202a2671658e873abe0",
+    "rowtemplate": "flxOne",
+    "screenlevelwidget": false,
+    "searchBy": "lblTitle",
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s83c66ff2720488dbc09934e6cdcde02",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "e5e5e500",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Label09c864798052647": "Label09c864798052647",
+        "flxCInfo": "flxCInfo",
+        "flxOne": "flxOne",
+        "flxcDelete": "flxcDelete",
+        "flxcDriveContainer": "flxcDriveContainer",
+        "img123": "img123",
+        "lblDate": "lblDate",
+        "lblId": "lblId",
+        "lblSize": "lblSize",
+        "lblTime": "lblTime",
+        "lblTitle": "lblTitle",
+        "lblType": "lblType"
+    },
+    "zindex": 1
+}

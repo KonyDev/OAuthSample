@@ -1,0 +1,29 @@
+{
+    "AS_Calendar_fbc2c5e25e0e4f2da2ec43747992c935": {
+        "id": "AS_Calendar_fbc2c5e25e0e4f2da2ec43747992c935",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "boolean",
+            "name": "isValidDateSelected"
+        }],
+        "contextObj": {
+            "name": "frmCalender",
+            "type": "forms",
+            "platform": "",
+            "KUID": "278cb7695161448088b475089def7e57"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___1ede871d99484b2999f224e042264eaa",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCalendarEvents",
+            "display": "getCalendarEvents",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_135f7ee5bfd44eeba50dbe4c687baedc": {
+        "id": "AS_Button_135f7ee5bfd44eeba50dbe4c687baedc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLinkedinShare",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f433feb19aa645ada5183721cd5f98bc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_e14f7ed032924492aba76bd24d585072",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "linkedinShareLink",
+            "display": "linkedinShareLink",
+            "inputparams": [],
+            "callbackType": null
+        }]
+    }
+}

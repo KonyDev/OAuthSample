@@ -1,0 +1,25 @@
+{
+    "AS_Form_fab751f1d05642e9980fbba5e4199fb7": {
+        "id": "AS_Form_fab751f1d05642e9980fbba5e4199fb7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOneDrive",
+            "type": "forms",
+            "platform": "",
+            "KUID": "819ba2e75b1b48459cf3cdebd6cfbd24"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_init_8e93c128cedb47b0877b6cb44a0d9bba",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setDeleteButtonCallBack",
+            "display": "setDeleteButtonCallBack",
+            "inputparams": [],
+            "callbackType": null
+        }]
+    }
+}

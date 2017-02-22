@@ -1,0 +1,28 @@
+{
+    "AS_Button_999099e0a500496989f077827d1e3a74": {
+        "id": "AS_Button_999099e0a500496989f077827d1e3a74",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFacebook",
+            "type": "forms",
+            "platform": "",
+            "KUID": "36c6f6543f2a409896519c722d114fee"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___70dc372579a747ae8107a2c0c41a9731",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmProfile",
+            "formKUID": "85980f94e7004778ab18efdfe8ba9103",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "AS_Image_63c3f8255d8f474fb5814b8cf0e0df4b": {
+        "id": "AS_Image_63c3f8255d8f474fb5814b8cf0e0df4b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "tmpTwitter",
+            "type": "templates",
+            "platform": "",
+            "KUID": "e95475ea56674c37978a45e1d0d84844"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___26626c1cfa254a8fa94bee8a747c569b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmProfile",
+            "formKUID": "85980f94e7004778ab18efdfe8ba9103",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

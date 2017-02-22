@@ -1,0 +1,26 @@
+{
+    "AS_Button_91545b081c294f62a81fd58231d5ee69": {
+        "id": "AS_Button_91545b081c294f62a81fd58231d5ee69",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "tmpInvokeService",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f7b5aa853e1347c191255c48bd73e622"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___93f46039b8334cc1a8dc47fc9153d22d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "redirectFeaturesPage",
+            "display": "redirectFeaturesPage",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

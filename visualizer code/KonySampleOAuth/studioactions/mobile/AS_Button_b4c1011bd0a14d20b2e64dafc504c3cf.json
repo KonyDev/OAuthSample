@@ -1,0 +1,29 @@
+{
+    "AS_Button_b4c1011bd0a14d20b2e64dafc504c3cf": {
+        "id": "AS_Button_b4c1011bd0a14d20b2e64dafc504c3cf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "VBox009fdbf510d3848",
+            "type": "templates",
+            "platform": null,
+            "KUID": "854f4f84796f462fae8d88d8a48ead98"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___81660212797a47a9adb635f9d2497cec",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "deleteFolder",
+            "display": "deleteFolder",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
