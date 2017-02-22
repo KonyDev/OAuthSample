@@ -10,7 +10,7 @@
 7. Use the app key,app secret & service URl of the MF app and configure it in the config.js file of the source code.
 8. Build & run the app for supported platforms.
 
-# Supported platforms for Kony Visualizer Enterprise 7.0 and Kony Visualizer 7.0
+# Supported platforms for Kony Visualizer 7.0
 **Mobile**
  * Android
  * Iphone
