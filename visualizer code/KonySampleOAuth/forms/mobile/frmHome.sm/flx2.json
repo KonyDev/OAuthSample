@@ -40,7 +40,7 @@
         "value": "50%"
     },
     "children": [
-        "flxFacebook"
+        "flxGoogle"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -1,0 +1,19 @@
+{
+    "AS_Button_ee1d3c910f1049ba8b0b2fc2683fc399": {
+        "id": "AS_Button_ee1d3c910f1049ba8b0b2fc2683fc399",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_f38c777352bb41dfbbcf293caababc01",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "googleLogin",
+            "display": "googleLogin",
+            "inputparams": [],
+            "callbackType": null
+        }]
+    }
+}

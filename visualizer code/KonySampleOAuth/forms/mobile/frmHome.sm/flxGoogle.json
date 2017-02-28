@@ -22,22 +22,23 @@
     "_skin_": "s43c0befcd01471c9217423bfd0aada8",
     "_top_": {
         "type": "string",
-        "value": "0.10%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
-        "value": "28%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "26%"
+        "value": "50%"
     },
     "children": [
         "btnG",
-        "Label0f0c5a9ce0bad46"
+        "Label0f0c5a9ce0bad46",
+        "btnKonyOauth"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -51,7 +52,7 @@
     "kuid": "66026378f0e049609e4005415a2c17f9",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flx1",
+    "parent": "flx2",
     "pf": "frmHome",
     "snapgridsize": 10,
     "snaptogrid": true,

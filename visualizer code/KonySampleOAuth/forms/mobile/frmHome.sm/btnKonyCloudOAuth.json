@@ -22,11 +22,15 @@
         0,
         0
     ],
+    "_render_": true,
     "_skin_": "se08f6e04afe43608cdd0622746ba966",
     "_text_": "Kony OAuth",
     "_width_": {
         "type": "string",
         "value": "260dp"
+    },
+    "android": {
+        "render": false
     },
     "canUpdateUI": true,
     "centerx": {
@@ -40,11 +44,29 @@
     "id": "btnKonyCloudOAuth",
     "ide_onClick": "AS_Button_c4d6508369394684958cffcb927bd9b1",
     "info": null,
-    "isvisible": true,
+    "iphone": {
+        "render": false
+    },
+    "isvisible": false,
     "kuid": "a94670f014894d80a4c885e65bf24e6f",
     "name": "kony.ui.Button",
     "parent": "flxcMain",
     "pf": "frmHome",
+    "spaan": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
     "wType": "Button",
+    "winphone8": {
+        "render": false
+    },
     "zindex": 10
 }

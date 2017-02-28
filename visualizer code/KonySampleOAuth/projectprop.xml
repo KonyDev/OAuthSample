@@ -31,7 +31,7 @@
     <attributes name="wp10publisherdisplaynamekey" value=""/>
     <attributes name="enablefileupload" value="false"/>
     <attributes name="CLEAR_APP_USER_DATA" value="false"/>
-    <attributes name="cloud_account_id" value="100000002"/>
+    <attributes name="cloud_account_id" value="100000347"/>
     <attributes name="wp10phoneCall" value="false"/>
     <attributes name="webcam" value="false"/>
     <attributes name="wp8flipsmallkey" value=""/>
@@ -256,7 +256,7 @@
     <attributes name="win8publisherdisplaynamekey" value="KonyLabs"/>
     <attributes name="WP8_ID_CAP_CONTACTS" value="true"/>
     <attributes name="Location" value="true"/>
-    <attributes name="cloud_env_GUID" value="4bfd6a8d-b3b4-47a9-9172-ad0a48e0c65b"/>
+    <attributes name="cloud_env_GUID" value="25780850-1383-46e3-936e-fe5e448fc6fd"/>
     <attributes name="wp10descriptionkey" value="Sample Test Application"/>
     <attributes name="manifest_tag_attrs" value=""/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
@@ -422,7 +422,7 @@
     <attributes name="apmformExit" value="false"/>
     <attributes name="CHANGE_WIFI_MULTICAST_STATE" value="false"/>
     <attributes name="wp10widelogokey" value=""/>
-    <attributes name="cloud_url" value="http://KH1495.kitspl.com:8080"/>
+    <attributes name="cloud_url" value="https://sampletestcloud.qa-konycloud.com"/>
     <attributes name="certs_key_store_pwd" value="kds/0eUc+i3BqFqSkpCk4g=="/>
     <attributes name="CALL_PRIVILEGED" value="false"/>
     <attributes name="SUBSCRIBED_FEEDS_READ" value="false"/>
@@ -515,7 +515,7 @@
     <attributes name="apmerrorunhandledexception" value="false"/>
     <attributes name="tcandroid320basefontsize" value="12"/>
     <attributes name="BROADCAST_SMS" value="false"/>
-    <attributes name="cloud_env_name" value="KonyAccount-LocalDevEnv"/>
+    <attributes name="cloud_env_name" value="Samples-ACME Prod"/>
     <attributes name="wp10lockscreennotificationskey" value="Not set"/>
     <attributes name="ID_REQ_REARCAMERA" value="false"/>
     <attributes name="tcandroid360basefontsize" value="12"/>
@@ -534,6 +534,6 @@
     <attributes name="androidenablejsbindings" value="false"/>
     <attributes name="camerasettings" value=""/>
     <attributes name="pathprefixkey" value=""/>
-    <attributes name="cloud_account_guid" value="568581eb-ce22-415b-86c1-0de53972733a"/>
+    <attributes name="cloud_account_guid" value="f5c80fc7-794b-4677-b8ac-bb337c20f1d8"/>
     <attributes name="defaultlocalekey" value=""/>
 </properties>

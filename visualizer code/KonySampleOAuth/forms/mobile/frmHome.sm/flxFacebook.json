@@ -26,14 +26,14 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "28%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "26%"
     },
     "children": [
         "btnFB",
@@ -48,7 +48,7 @@
     "kuid": "f8db07c3e8224d72b09b00c15b142401",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flx2",
+    "parent": "flx1",
     "pf": "frmHome",
     "snapgridsize": 10,
     "snaptogrid": true,

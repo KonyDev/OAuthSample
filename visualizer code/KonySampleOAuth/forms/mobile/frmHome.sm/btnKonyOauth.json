@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "75dp"
+        "value": "70dp"
     },
     "_margin_": [
         6,
@@ -18,15 +18,11 @@
         0,
         0
     ],
-    "_render_": true,
-    "_skin_": "s2079487e38f4204a866e12c403d0062",
+    "_skin_": "s5212ba82ecf47aaba9edebdd19e98c5",
     "_text_": "",
     "_width_": {
         "type": "string",
-        "value": "75dp"
-    },
-    "android": {
-        "render": false
+        "value": "70dp"
     },
     "canUpdateUI": true,
     "centerx": {
@@ -40,37 +36,21 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sd77d47b2fca4386a112690c24fb9e0b",
-    "id": "btnG",
-    "ide_onClick": "AS_Button_ee1d3c910f1049ba8b0b2fc2683fc399",
+    "focusskin": "s5212ba82ecf47aaba9edebdd19e98c5",
+    "id": "btnKonyOauth",
+    "ide_onClick": "AS_Button_f93f908413964b1086e237abbbb7980c",
     "info": null,
     "iphone": {
         "psp": {
             "showProgressIndicator": false
-        },
-        "render": false
+        }
     },
-    "isvisible": false,
-    "kuid": "a9778c4505ed4597954c38dcdcecadad",
+    "isvisible": true,
+    "kuid": "b5e2eb813d684af995b347daecd4e8b2",
     "name": "kony.ui.Button",
     "parent": "flxGoogle",
     "pf": "frmHome",
     "showprogressindicator": false,
-    "spaan": {
-        "render": false
-    },
-    "spabb": {
-        "render": false
-    },
-    "spaip": {
-        "render": false
-    },
-    "spawinphone8": {
-        "render": false
-    },
     "wType": "Button",
-    "winphone8": {
-        "render": false
-    },
     "zindex": 1
 }
