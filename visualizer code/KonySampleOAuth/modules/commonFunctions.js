@@ -2,7 +2,9 @@
 //Display Profile for all providers
 function displayProfile(first_name,last_name,full_name,email,Profile_Pic)
 {
+  	kony.print("In Commaon functions");
   	clear();
+  
   if(Profile_Pic!==undefined)
     frmProfile.flxProfile.profilePicture.src=Profile_Pic;
   if(first_name!==undefined)
@@ -22,12 +24,12 @@ function displayProfile(first_name,last_name,full_name,email,Profile_Pic)
   	frmProfile.flxProfile.flxFullname.lblFullname.text=full_name;
   else
     frmProfile.flxProfile.flxFullname.setVisibility(false);
- 
-  kony.application.dismissLoadingScreen();
   frmProfile.show();
+  	
+  kony.print("@@@@@@@@@@@@@@@@@@@@@@ destroy");
 }
 
-
+/*
 //Fill the folder & file details
 function fillDetails(image_name,link,name,id,type,date,time,size)
 {
@@ -43,7 +45,7 @@ function fillDetails(image_name,link,name,id,type,date,time,size)
       };
   return resObj;
 }
-
+*/
 
 //Clear the profile form
 function clear()
@@ -60,7 +62,7 @@ function clear()
   
 }
 
-
+/*
 //Navigate to different providers
 function redirectFeaturesPage()
 {
@@ -71,7 +73,7 @@ function redirectFeaturesPage()
     }
   else if(providerSelected=="Microsoft")
     {
-      getMicrosoftFolders();
+      getMFolders();
     }
   else if(providerSelected=="Linkedin")
     {
@@ -79,7 +81,7 @@ function redirectFeaturesPage()
     }
   else if(providerSelected=="Box")
     {
-      getBoxEvents();
+      getFolders();
     }
   else
     {
@@ -87,29 +89,4 @@ function redirectFeaturesPage()
     }
   
 }
-
-//Exit from app
-function exitApp()
-{
-   try{
-         kony.application.exit();
-      }
-   catch(Error)
-      {
-         alert("Exception While getting exiting the application  : "+Error);
-      }
-}
-
-function fnLogout(){
-  if(oAuth!=="") {
-    frmHome.show(); 
-    return;
-  }
-  auth_client.logout( 
-		function(response) {
-		kony.print("Logout success" + JSON.stringify(response));
-	}, function(error) {
-		kony.print("Logout failure" + JSON.stringify(error));
-	});
-  frmHome.show();
-}
+*/

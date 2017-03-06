@@ -12,7 +12,6 @@
             "platform": "",
             "KUID": "32987a5f78914da3bbefaa5b686de726"
         },
-        "language": "js",
         "actions": [{
             "id": "NAVIGATE_TO_FORM__ide_onClick_15f99d8295804664a9d2e93d54e9ce24",
             "type": "NAVIGATE_TO_FORM",

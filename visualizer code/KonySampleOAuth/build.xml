@@ -35,7 +35,7 @@
 		</else>
 	</if>
 	
-		<property name="globalprop.file" location="../HeadlessBuild-Global.properties"/>
+	
 	<echo message="Global properties file LOCATION: ${global.file}"/>
 	<echo message="Build properties file LOCATION: ${input.file}"/>
 	
@@ -51,7 +51,7 @@
 		<then>
 			<fail message="Either ${input.file}
 				or
-				${globalprop.file}
+				${global.file}
 				doesn't exist"/>
 		</then>
 	</if>
@@ -104,10 +104,6 @@
 			</if>
 		</else>
 	</if>
-	 
-		<property name="gradle.file" location="${eclipse.equinox.path}/../../../gradle/bin"/>
-		<echo message="Gradle path is ${gradle.file}"/>
-		
 		
     <if>
     	<equals arg1="${os.family}" arg2="windows"/>
@@ -126,7 +122,7 @@
 	        	<arg line='-c "chmod 777 run.sh"'/>
 	        </exec>
 	        <exec dir="." executable="/bin/bash" failonerror="true">
-	        	<arg line='-c "sh run.sh ${input.file} ${ws.location} ${eclipse.equinox.path} ${global.file} ${gradle.file}"'/>
+	        	<arg line='-c "sh run.sh ${input.file} ${ws.location} ${eclipse.equinox.path} ${global.file}"'/>
 	        </exec>
     	</else>
     </if>	

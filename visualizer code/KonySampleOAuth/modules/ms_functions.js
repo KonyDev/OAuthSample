@@ -14,13 +14,13 @@ function displayMicrosoftProfile(profile)
   	var last_name=profile.user_attributes.last_name;
   	var email=profile.user_attributes.emails.account;
  	var profile_picture="https://apis.live.net/v5.0/"+u_id+"/picture?width:700";
-  	
+  	kony.application.dismissLoadingScreen();
   	displayProfile(first_name,last_name,full_name,email,profile_picture);
   	frmProfile.headers[0].lblTitle.text="Microsoft Profile";
   	//frmProfile.footers[0].btnInvokeService.text="Acess Files & Folders";
   	
 }
-
+/*
 function displayOneDriveFolders(folderObj)
 {
   var responseDataList=folderObj.entries;
@@ -67,5 +67,5 @@ function getMicrosoftFolders()
   var headers={};
   kony.application.showLoadingScreen("sknLoading","Please Wait..",constants.LOADING_SCREEN_POSITION_ONLY_CENTER, true, true,null);
   integration_service(service_name,operation_name,params,headers,displayOneDriveFolders);
-}
+}*/
 

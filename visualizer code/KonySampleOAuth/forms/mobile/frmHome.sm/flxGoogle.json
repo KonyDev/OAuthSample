@@ -22,7 +22,7 @@
     "_skin_": "s43c0befcd01471c9217423bfd0aada8",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "0.10%"
     },
     "_width_": {
         "type": "string",
@@ -38,7 +38,7 @@
     "children": [
         "btnG",
         "Label0f0c5a9ce0bad46",
-        "btnKonyOauth"
+        "btnKonyOAuth"
     ],
     "clipbounds": true,
     "containerweight": 100,

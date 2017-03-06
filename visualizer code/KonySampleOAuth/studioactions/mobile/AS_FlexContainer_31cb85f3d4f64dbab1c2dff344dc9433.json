@@ -12,16 +12,12 @@
             "platform": "",
             "KUID": "f433feb19aa645ada5183721cd5f98bc"
         },
-        "language": "js",
         "actions": [{
             "id": "INVOKE_FUNCTION___4f9ea80c36fe40a5b8a68fc6f222b779",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "radioButtonCallback",
             "display": "radioButtonCallback",
-            "inputparams": [{
-                "name": "item",
-                "value": "1"
-            }],
+            "inputparams": [],
             "parentId": null,
             "callbackType": null
         }]

@@ -7,21 +7,21 @@
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "tmpProfile",
+            "name": "tmpProfile1",
             "type": "templates",
             "platform": "",
             "KUID": "864a136499a2461ab4714fa5146e6bb0"
         },
-        "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___6cf26c7ab35d4e2f94006a06e7587b5e",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "fnLogout",
-            "display": "fnLogout",
-            "inputparams": [],
-            "parentId": null,
+            "id": "NAVIGATE_TO_FORM___d817234412a446128b1d2ec12e751226",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmHome",
+            "formKUID": "a1f4c52e6be342b0a6a34efc6a40d25e",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
             "callbackType": null,
-            "disabled": null
+            "enableMappingEditor": true
         }]
     }
 }

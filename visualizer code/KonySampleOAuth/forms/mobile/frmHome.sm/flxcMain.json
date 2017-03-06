@@ -37,8 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "flxcTitle",
-        "flxLogos",
-        "btnKonyCloudOAuth"
+        "flxLogos"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -12,11 +12,9 @@
             "platform": "",
             "KUID": "85980f94e7004778ab18efdfe8ba9103"
         },
-        "language": "js",
         "actions": [{
             "id": "NAVIGATE_TO_FORM___68fc58acc534448d864aeaaad8220b06",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "frmCalender",
             "formKUID": "278cb7695161448088b475089def7e57",
             "mappings": {},
             "mappingsOrder": [],

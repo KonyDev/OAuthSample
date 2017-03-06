@@ -18,7 +18,7 @@
         0,
         0
     ],
-    "_skin_": "s5212ba82ecf47aaba9edebdd19e98c5",
+    "_skin_": "sbcf58f547ad4f379b06f649e26816f1",
     "_text_": "",
     "_width_": {
         "type": "string",
@@ -27,7 +27,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "49%"
     },
     "centery": {
         "type": "string",
@@ -36,9 +36,9 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s5212ba82ecf47aaba9edebdd19e98c5",
-    "id": "btnKonyOauth",
-    "ide_onClick": "AS_Button_f93f908413964b1086e237abbbb7980c",
+    "focusskin": "sbcf58f547ad4f379b06f649e26816f1",
+    "id": "btnKonyOAuth",
+    "ide_onClick": "AS_Button_6849ea08f73d419bb25a510842bb0edd",
     "info": null,
     "iphone": {
         "psp": {
@@ -46,7 +46,7 @@
         }
     },
     "isvisible": true,
-    "kuid": "b5e2eb813d684af995b347daecd4e8b2",
+    "kuid": "09f6ebbfbbf04134851fcad544711ea3",
     "name": "kony.ui.Button",
     "parent": "flxGoogle",
     "pf": "frmHome",

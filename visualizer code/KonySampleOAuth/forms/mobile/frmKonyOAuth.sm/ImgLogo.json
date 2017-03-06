@@ -38,7 +38,7 @@
     "context": {
         "channel": "mobile",
         "formID": "frmKonyOAuth",
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -47,7 +47,7 @@
     "info": null,
     "invokedProperty": "src",
     "isvisible": true,
-    "kuid": "a69c4d9e4b21496286eb64fb8c9e9c8b",
+    "kuid": "b5a1a4a53d034e468073993c46df954f",
     "name": "kony.ui.Image2",
     "parent": "flxcTitle",
     "pf": "frmKonyOAuth",

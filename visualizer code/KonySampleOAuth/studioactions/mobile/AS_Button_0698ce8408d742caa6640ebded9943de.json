@@ -18,7 +18,6 @@
             "platform": "",
             "KUID": "36c6f6543f2a409896519c722d114fee"
         },
-        "language": "js",
         "actions": [{
             "id": "NAVIGATE_TO_FORM___42f3911101f4427cbdf0a9901f03ef0e",
             "type": "NAVIGATE_TO_FORM",
