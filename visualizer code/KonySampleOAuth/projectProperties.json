@@ -1,7 +1,7 @@
 {
     "APPLICATION_THEME": "default",
     "appaddrkey": "",
-    "appidkey": "OAuthDemo",
+    "appidkey": "OAuthDemoNew",
     "appmenu": {
         "desktop": {
             "data": [
@@ -122,24 +122,18 @@
     "apppackagekey": "",
     "appversionkey": "1.0.0",
     "build": "debug",
-    "category": "app",
     "createdVizVersion": "2.9.0",
     "createdgaversion": "6.9.0",
-    "currentgaversion": "7.3.0",
+    "currentgaversion": "7.2.1",
     "defaulttheme": "defaultTheme",
     "desktopwebbasefontsize": "12",
-    "enableCordova": false,
-    "enableIdForAutomation": false,
     "enableactionbar": false,
     "ide_appEvents": {
-        "mobile": {
-            "postappinit": "AS_AppEvents_f4559899b21645c780a279636382b6f2"
-        }
+        "mobile": {}
     },
     "isA11yConfigEnabled": false,
-    "isDpScaleFactor": true,
     "isNewAppWithRespectToAndroidPackageName": "",
-    "konyVizVersion": "7.3.0",
+    "konyVizVersion": "7.2.1",
     "mwaddrkey": "",
     "mwhttpsportkey": "",
     "mwportkey": "",
@@ -150,8 +144,7 @@
         "isEnableJSContaineriOS": false
     },
     "project.type": "js",
-    "project_version": "sprint26",
-    "referenceWidth": "375",
+    "project_version": "sprint25",
     "startupformkey": "frmHome",
     "statusBarHidden": "false",
     "vendornamekey": "KonyLabs",
@@ -187,5 +180,12 @@
     "watchos_shortlooknotificationicon": "",
     "watchos_shortlooknotificationicon_38": "",
     "watchos_shortlooknotificationicon_42": "",
-    "winmobileguidkey": ""
+    "winmobileguidkey": "",
+    "cordovaVersionInfo": {
+        "useGlobalCordova": false
+    },
+    "enableCordova": false,
+    "enableIdForAutomation": false,
+    "isDpScaleFactor": true,
+    "referenceWidth": "375"
 }

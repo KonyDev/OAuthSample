@@ -1,5 +1,5 @@
 /*
-  * kony-sdk-ide Version SDK-GA-7.2.1.3
+  * kony-sdk-ide Version mBaaSSDK-QA-7.2.1.2
   */
         
 /**
@@ -143,7 +143,7 @@ kony.sdk = function() {
 
 	this.appendGlobalQueryParams = function(url){
 		var globalQueryParams = this.getGlobalRequestParams(this.globalRequestParamType.queryParams);
-		if(!kony.sdk.isNullOrUndefined(globalQueryParams) && Object.keys(globalQueryParams).length !== 0){
+		if(!kony.sdk.isNullOrUndefined(globalQueryParams)){
 			if(url.indexOf("?") < 0){
 				url = url + "?" + kony.sdk.util.objectToQueryParams(globalQueryParams);
 			}else{
@@ -166,7 +166,7 @@ kony.sdk.isInitialized = false;
 kony.sdk.currentInstance = null;
 kony.sdk.isLicenseUrlAvailable = true;
 kony.sdk.constants = kony.sdk.constants || {};
-kony.sdk.version = "SDK-GA-7.2.1.3";
+kony.sdk.version = "mBaaSSDK-QA-7.2.1.2";
 kony.sdk.logger = new konyLogger();
 kony.sdk.syncService = null;
 kony.sdk.nativestore = kony.sdk.nativestore || new konyDataStore();
@@ -989,24 +989,22 @@ function IdentityService(konyRef, rec) {
 				endPointUrl = _serviceUrl + url + "?provider=" + _providerName;
 				params["provider"] = _providerName;
 			}
-			if(kony.sdk.getPlatformName() !== "windows") {
-				//Save the user entered form data to a temporary store and only if login is successful, we store the value in this to proper credentials store.
-				if (kony.sdk.getSdkType() === "js" && (_type === "basic" || (options && options["userid"] && options["password"])) && kony.sdk.offline.isOfflineEnabled === true) {
-					kony.sdk.offline.saveTempUserCredentials(options, true);
-
-					if (!kony.sdk.isNetworkAvailable()) {
-						kony.sdk.offline.loginOffline(function (data1) {
-							logger.log("successfully authenticated offline");
-							processLoginSuccessResponse(data1, konyRef, true, successCallback);
-						}, function (error) {
-							logger.log("offline authentication also failed");
-							resetAllCurrentTokens(konyRef, _providerName);
-							if (failureCallback) {
-								failureCallback(kony.sdk.error.getAuthErrObj(error));
-							}
-						});
-						return;
-					}
+			//Save the user entered form data to a temporary store and only if login is successful, we store the value in this to proper credentials store. 
+			if (kony.sdk.getSdkType() === "js" && (_type === "basic" || (options && options["userid"] && options["password"])) && kony.sdk.offline.isOfflineEnabled === true ) {
+				kony.sdk.offline.saveTempUserCredentials(options, true);
+				
+				if(!kony.sdk.isNetworkAvailable()){
+					kony.sdk.offline.loginOffline(function(data1){
+						logger.log("successfully authenticated offline");
+						processLoginSuccessResponse(data1,konyRef,true,successCallback);
+					},function(error){
+						logger.log("offline authentication also failed");
+						resetAllCurrentTokens(konyRef, _providerName);
+						if(failureCallback){
+							failureCallback(kony.sdk.error.getAuthErrObj(error));
+						}
+					});
+					return;
 				}
 			}
 			if (options && options["include_profile"]) {
@@ -1115,17 +1113,15 @@ function IdentityService(konyRef, rec) {
 		}
 		logger.log("userid is " + konyRef.getUserId());
 
-		if(kony.sdk.getPlatformName() !== "windows") {
-			//We store the user credentials and the success auth response only on successful online login.
-			if (_type === "basic") {
-				if (kony.sdk.getSdkType() === "js" && kony.sdk.offline.isOfflineEnabled === true && kony.sdk.isNetworkAvailable()) {
-					kony.sdk.offline.updateSuccessUserCredentials();
-					kony.sdk.offline.saveUserAuthInformation(data);
-				}
-				else if (kony.sdk.getSdkType() === "js" && kony.sdk.offline.isOfflineEnabled === false) {
-					kony.sdk.offline.removeUserCredentials();
-					kony.sdk.offline.removeUserAuthInformation();
-				}
+		//We store the user credentials and the success auth response only on successful online login.
+		if (_type === "basic"){
+			if(kony.sdk.getSdkType() === "js" && kony.sdk.offline.isOfflineEnabled === true && kony.sdk.isNetworkAvailable()) {
+				kony.sdk.offline.updateSuccessUserCredentials();
+				kony.sdk.offline.saveUserAuthInformation(data);
+			}
+			else if(kony.sdk.getSdkType() === "js" && kony.sdk.offline.isOfflineEnabled === false){
+				kony.sdk.offline.removeUserCredentials();
+				kony.sdk.offline.removeUserAuthInformation();
 			}
 		}
 
@@ -1220,17 +1216,13 @@ function IdentityService(konyRef, rec) {
 		function logoutHandler() {
 			_logout(successCallback, failureCallback, options);
 		}
-		if(kony.sdk.getPlatformName() !== "windows") {
-			//if the user logged in using offline logout
-			if (kony.sdk.offline.isOfflineEnabled == true && kony.sdk.getSdkType() === "js" && _type === "basic" && !kony.sdk.isNetworkAvailable()) {
-				logoutHandler();
-			} else {
-				kony.sdk.claimsRefresh(logoutHandler, failureCallback);
-			}
-		}else{
+		//if the user logged in using offline logout
+		if(kony.sdk.offline.isOfflineEnabled == true && kony.sdk.getSdkType() === "js" && _type === "basic" && !kony.sdk.isNetworkAvailable()) {
+			logoutHandler();
+		} else {
 			kony.sdk.claimsRefresh(logoutHandler, failureCallback);
 		}
-	}
+	};
 
 	function _logout(successCallback, failureCallback, options) {
 		function logoutSuccess() {
@@ -1282,14 +1274,12 @@ function IdentityService(konyRef, rec) {
             if (konyRef.tokens[_providerName]) {
                 claimsTokenValue = konyRef.tokens[_providerName]["claims_token"]["value"];
             }
-            if(kony.sdk.getPlatformName() !== "windows") {
-				//if the user logged in using offline login
-				if (kony.sdk.offline.isOfflineEnabled == true && kony.sdk.getSdkType() === "js" && _type === "basic" && !kony.sdk.isNetworkAvailable()) {
-					logger.log("AuthService::offline logout successfully logged out. Calling success callback");
-					logoutSuccess();
-					return;
-				}
-			}
+            //if the user logged in using offline login
+            if(kony.sdk.offline.isOfflineEnabled == true && kony.sdk.getSdkType() === "js" && _type === "basic" && !kony.sdk.isNetworkAvailable()) {
+                logger.log("AuthService::offline logout successfully logged out. Calling success callback");
+                logoutSuccess();
+                return;
+            }
 
             networkProvider.post(_serviceUrl + "/logout", formdata, {
                     "Authorization": claimsTokenValue,
@@ -8339,12 +8329,8 @@ function OAuthHandler(serviceUrl, providerName, appkey, callback, type, options)
 				requestMethod: constants.BROWSER_REQUEST_METHOD_GET
 			};
 			browserSF.requestURLConfig = urlConf;
-        } else {
-            //#ifdef android
-            browserSF.onPageStarted = handleRequestCallback;
-            //#else
-            browserSF.handleRequest = handleRequestCallback;
-            //#endif
+		} else {
+			browserSF.handleRequest = handleRequestCallback;
 			urlConf = {
 				URL: serviceUrl + urlType + "login?provider=" + providerName + "&appkey=" + appkey,
 				requestMethod: constants.BROWSER_REQUEST_METHOD_GET
@@ -8410,10 +8396,6 @@ function OAuthHandler(serviceUrl, providerName, appkey, callback, type, options)
 if(kony.sdk){
 	kony.sdk.offline = {};
 }
-
-//#ifdef KONYSYNC_WINDOWS
-
-//#else
 //defined constants related to offline authentication.
 kony.sdk.offline.isOfflineEnabled = false;
 kony.sdk.constants.iterations = 1024;
@@ -8539,7 +8521,7 @@ kony.sdk.offline.removeUserCredentials = function(){
 kony.sdk.offline.removeUserAuthInformation = function(){
 	kony.store.removeItem("authResponse");
 }
-//#endif
+
 var KNYMobileFabric = null;
 var KNYMetricsService = null;
 var serviceDocTimerId = null;

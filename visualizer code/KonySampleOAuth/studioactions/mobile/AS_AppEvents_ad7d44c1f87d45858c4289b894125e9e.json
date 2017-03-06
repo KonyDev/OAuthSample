@@ -1,0 +1,20 @@
+{
+    "AS_AppEvents_ad7d44c1f87d45858c4289b894125e9e": {
+        "id": "AS_AppEvents_ad7d44c1f87d45858c4289b894125e9e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___3fe3f0a95d5a444fbf51740afb4b55ac",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setGestureRecogniserToFrmDrive",
+            "display": "setGestureRecogniserToFrmDrive",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

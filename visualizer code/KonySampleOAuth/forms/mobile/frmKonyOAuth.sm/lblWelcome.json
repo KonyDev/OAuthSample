@@ -55,7 +55,7 @@
         }
     },
     "isvisible": true,
-    "kuid": "fa9cb040eb7c4bd2a0f2e51d48ad70ea",
+    "kuid": "c7fe9dce116f4297af4fb274c9e962f9",
     "name": "kony.ui.Label",
     "parent": "flxcTitle",
     "pf": "frmKonyOAuth",

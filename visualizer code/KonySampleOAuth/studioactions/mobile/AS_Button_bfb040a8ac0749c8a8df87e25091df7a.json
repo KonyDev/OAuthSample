@@ -1,0 +1,26 @@
+{
+    "AS_Button_bfb040a8ac0749c8a8df87e25091df7a": {
+        "id": "AS_Button_bfb040a8ac0749c8a8df87e25091df7a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmKonyOAuth",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b724dd6f39a34626978197fff612c72e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b878d41949da406ab878509600339d69",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "kOAuth",
+            "display": "kOAuth",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

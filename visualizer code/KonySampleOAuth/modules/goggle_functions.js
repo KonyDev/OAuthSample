@@ -14,15 +14,14 @@ function displayGoogleProfile(profile)
    	email=profile.user_attributes.emails[0].value;
    	var profile_picture=profile.user_attributes.image.url;
    	var profile_picture_size=profile_picture.replace("?sz=50","?sz=150");
+  kony.application.dismissLoadingScreen();
    	displayProfile(first_name,last_name,full_name,email,profile_picture_size);
   	frmProfile.headers[0].lblTitle.text="Google Profile";
-  //	frmProfile.footers[0].btnInvokeService.text="Show my Calender";
-  	
 }
 
 
 //Google Calendar 
-
+/*
 function getCalendarEvents()
 {
   var service_name="GoogleCalendar";
@@ -76,4 +75,4 @@ function displayCalendarEvents(calendarObj)
    frmCalender.segCalender.addAll(dataList);
   kony.application.dismissLoadingScreen();
   frmCalender.show();
-}
+}*/

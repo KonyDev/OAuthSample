@@ -22,8 +22,6 @@
                 "name": "provider_name"
             }, {
                 "name": "displayProfileFn"
-            }, {
-                "name": "callback"
             }],
             "parentId": null,
             "callbackType": null

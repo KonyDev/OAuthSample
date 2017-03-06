@@ -3,8 +3,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "40dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         6,
@@ -25,21 +25,20 @@
     "_skin_": "s2f1e8cc07fc4ceab2142d61da73e8f0",
     "_text_": "",
     "_width_": {
-        "type": "string",
-        "value": "40dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "canUpdateUI": true,
     "centery": {
         "type": "string",
         "value": "50%"
     },
-    "containerId": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s2f1e8cc07fc4ceab2142d61da73e8f0",
     "id": "btnLogout",
-    "ide_onClick": "AS_Button_9d5cb2e068394469b8127e6c49a00527",
+    "ide_onClick": "AS_Button_81d5e9da439c4014bc305a5f7345ca98",
     "info": null,
     "iphone": {
         "psp": {
@@ -47,7 +46,7 @@
         }
     },
     "isvisible": true,
-    "kuid": "fd3ae6087de048b69b2c7b5034660315",
+    "kuid": "c3ca447c5f3d4c8f944a98a3674fa03f",
     "name": "kony.ui.Button",
     "parent": "flxPro",
     "pf": "tmpProfile",

@@ -1,0 +1,20 @@
+{
+    "AS_Button_81d5e9da439c4014bc305a5f7345ca98": {
+        "id": "AS_Button_81d5e9da439c4014bc305a5f7345ca98",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e2d94ada79c144e2b694708d0fa1669b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "mLogout",
+            "display": "mLogout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

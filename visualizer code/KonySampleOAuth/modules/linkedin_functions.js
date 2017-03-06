@@ -22,12 +22,13 @@ function displayLinkedinProfile(profile)
   	profile_picture=p_urls.values[0];
   else 
     profile_picture=undefined;
+  kony.application.dismissLoadingScreen();
   	displayProfile(first_name,last_name,full_name,email,profile_picture);
   	frmProfile.headers[0].lblTitle.text="Linkedin Profile";
   //	frmProfile.footers[0].btnInvokeService.text="Share Link";
 }
 
-
+/*
 function linkedinShareLink()
 {
   frmLinkedinShare.flxcLinkediNShare.btnShare.setVisibility(false);
@@ -74,6 +75,6 @@ function linkedinShareLink()
 }
 
 
-
+*/
 
 

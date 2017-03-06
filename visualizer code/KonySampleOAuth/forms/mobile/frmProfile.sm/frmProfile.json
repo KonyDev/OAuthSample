@@ -2,9 +2,7 @@
     "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
     "_footers_": [],
-    "_headers_": [
-        null
-    ],
+    "_headers_": [],
     "_margin_": [
         0,
         0,
@@ -41,7 +39,7 @@
     "enabledforidletimeout": false,
     "footer": "frmProfile_footer",
     "header": "frmProfile_header",
-    "headersId": "864a136499a2461ab4714fa5146e6bb0",
+    "headersId": "cda1a2c9311246808c189932c9e3431e",
     "id": "frmProfile",
     "info": null,
     "initdone": false,
@@ -75,7 +73,7 @@
             }
         }
     },
-    "invokedProperty": "footers",
+    "invokedProperty": "headers",
     "ipad": {
         "psp": {
             "inputAccessoryViewType": 4

@@ -20,25 +20,22 @@
     "addWidgetsdone": false,
     "allboxes": [],
     "android": {
-        "needAppMenu": false,
-        "psp": {
-            "windowSoftInputMode": 2
-        }
+        "needAppMenu": false
     },
     "canUpdateUI": true,
     "children": [
-        "flxcTitle",
-        "flxCredentials"
+        "flxRoot"
     ],
     "containerweight": 100,
-    "currentLocale": "default",
+    "currentLocale": null,
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "GalaxyS5",
+    "device": "iPhone6",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmKonyOAuth",
+    "ide_preShow": "AS_Form_0a56827a04644498b5fcec464ea72d46",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -70,16 +67,16 @@
         "titleBar": false
     },
     "isvisible": true,
-    "kuid": "d173ffde1b6d440d8fd5a2c3f6103692",
+    "kuid": "b724dd6f39a34626978197fff612c72e",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "paddinginpixel": false,
-    "platform": "android",
+    "platform": "iphone",
     "prevDevice": "iPhone6",
     "prevPlatform": "iphone",
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS5",
+    "shellCSS": "iOS_iPhone6",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {

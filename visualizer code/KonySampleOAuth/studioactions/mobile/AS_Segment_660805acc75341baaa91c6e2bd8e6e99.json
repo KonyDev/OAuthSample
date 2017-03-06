@@ -22,8 +22,8 @@
         "actions": [{
             "id": "INVOKE_FUNCTION__ide_onRowClick_d07eb686d88549f1bf87f9676fea25d5",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "openBoxDetails",
-            "display": "openBoxDetails",
+            "sequenceKUID": "displayFiles",
+            "display": "displayFiles",
             "inputparams": [],
             "callbackType": null
         }]

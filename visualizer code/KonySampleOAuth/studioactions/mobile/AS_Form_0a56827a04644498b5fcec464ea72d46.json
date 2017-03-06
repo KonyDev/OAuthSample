@@ -1,0 +1,24 @@
+{
+    "AS_Form_0a56827a04644498b5fcec464ea72d46": {
+        "id": "AS_Form_0a56827a04644498b5fcec464ea72d46",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmKonyOAuth",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b724dd6f39a34626978197fff612c72e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e4b1122a57f34ff48f25b9986aeabc41",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmKonyOAuth.txtBoxUserId.text=\"\";\nfrmKonyOAuth.txtBoxPassword.text=\"\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

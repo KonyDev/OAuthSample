@@ -1,7 +1,7 @@
 function fbLogin()
 {
   //frmLoad.show();
-  providerSelected="Facebook";
+  //providerSelected="Facebook";
   login(MBaaSConfig.facebookProvider,displayFbProfile);
 }
 
@@ -15,6 +15,7 @@ function displayFbProfile(profile)
   	var first_name=profile.firstname;
   	var last_name=profile.lastname;
   	var email=profile.email;
+  kony.application.dismissLoadingScreen();
   	displayProfile(first_name,last_name,full_name,email,p_p);
   	frmProfile.headers[0].lblTitle.text="Facebook Profile";
   	//frmProfile.footers[0].btnInvokeService.setVisibility(false);
