@@ -23,7 +23,8 @@
             "spa": {},
             "spaipad": {},
             "spaandroidtablet": {},
-            "spawindowstablet": {}
+            "spawindowstablet": {},
+            "windows10": {}
         },
         "desktop": {
             "desktopweb": {},

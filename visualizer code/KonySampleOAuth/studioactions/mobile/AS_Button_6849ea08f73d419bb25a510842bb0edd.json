@@ -6,6 +6,7 @@
             "datatype": "collection",
             "name": "eventobject"
         }],
+        "language": "js",
         "actions": [{
             "id": "NAVIGATE_TO_FORM___f1d7bafc04ac43a6bf3c4f5e65f4e49b",
             "type": "NAVIGATE_TO_FORM",
@@ -15,7 +16,8 @@
             "mappingsOrder": [],
             "parentId": "",
             "callbackType": null,
-            "enableMappingEditor": true
+            "enableMappingEditor": true,
+            "disabled": false
         }]
     }
 }

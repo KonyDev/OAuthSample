@@ -1,6 +1,7 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizHBox",
     "DNDConfig": null,
+    "__valid__": true,
     "_margin_": [
         0,
         0,

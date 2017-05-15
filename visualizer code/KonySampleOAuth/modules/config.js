@@ -1,13 +1,13 @@
 MBaaSConfig ={
-   	"appKey":"9e0de51c210428af3a91318ef4db05e8",
-	"appSecret":"25c1087de7bc699b500ff0082e71eedf",
-	"serviceURL":"https://100000011.auth.sit2-konycloud.com/appconfig",
-  	"googleProvider":"GoogleOauth",
+   	"appKey":"1da3547edaa6576c77d99e52651b1979",
+	"appSecret":"28df42c1fec5b7b279ad035a917bf285",
+	"serviceURL":"https://100006023.auth.konycloud.com/appconfig",
+  	//"googleProvider":"GoogleOauth",
   	"linkedinProvider":"LinkedInOAuth",
   	"microsoftProvider":"MicrosoftOauth",
   	"boxProvider":"BoxOauth",
   	//"amazonProvider":"AmazonOAuth",
-  	"instagramProvider":"InstagramOauth",
+  	//"instagramProvider":"InstagramOauth",
   	"facebookProvider":"FaceBookOAuth",
     "KonyOAuthService":"KonyCloudOAuth",
   	"KonyOAuthServiceOperation":"authenticate"

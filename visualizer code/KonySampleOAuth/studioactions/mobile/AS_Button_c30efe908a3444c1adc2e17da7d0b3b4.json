@@ -6,6 +6,7 @@
             "datatype": "collection",
             "name": "eventobject"
         }],
+        "language": "js",
         "actions": [{
             "id": "INVOKE_FUNCTION__ide_onClick_3676ea10fda842bc9048cc3f94dd3a49",
             "type": "INVOKE_FUNCTION",

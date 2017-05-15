@@ -12,6 +12,7 @@
             "platform": "",
             "KUID": "36c6f6543f2a409896519c722d114fee"
         },
+        "language": "js",
         "actions": [{
             "id": "INVOKE_FUNCTION___8ffb8745c1f04b6594924fd74d3106ed",
             "type": "INVOKE_FUNCTION",
