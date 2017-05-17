@@ -20,6 +20,8 @@ function displayMicrosoftProfile(profile)
   	//frmProfile.footers[0].btnInvokeService.text="Acess Files & Folders";
   	
 }
+
+
 /*
 function displayOneDriveFolders(folderObj)
 {

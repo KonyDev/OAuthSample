@@ -27,7 +27,6 @@ function login(provider_name,displayProfileFn)
 function mLogout(){
   if(oAuth==="KonyOAuth"){
     frmHome.show();
-    return ;
   }
   try{
   auth_client.logout(function(success){

@@ -10,7 +10,6 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM___gd78629b375c47e79e38f624b813140a",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "frmKonyOAuth",
             "formKUID": "d173ffde1b6d440d8fd5a2c3f6103692",
             "mappings": {},
             "mappingsOrder": [],

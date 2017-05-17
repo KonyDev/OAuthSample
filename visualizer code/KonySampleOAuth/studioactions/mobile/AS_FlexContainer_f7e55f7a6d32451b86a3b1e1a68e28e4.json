@@ -18,7 +18,9 @@
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "radioButtonCallback",
             "display": "radioButtonCallback",
-            "inputparams": [],
+            "inputparams": [{
+                "name": "item"
+            }],
             "callbackType": null
         }]
     }

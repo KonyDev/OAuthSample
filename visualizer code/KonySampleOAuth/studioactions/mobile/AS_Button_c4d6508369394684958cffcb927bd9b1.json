@@ -16,7 +16,6 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM___db100037a88f4f4e9d4f17c9e8ee6664",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "frmKonyOAuth",
             "formKUID": "d173ffde1b6d440d8fd5a2c3f6103692",
             "mappings": {},
             "mappingsOrder": [],
